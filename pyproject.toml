@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "dalia-ml"
+version = "0.1.0"
+description = ""
+authors = ["DemyCode <verycols@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dalia_ml"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ultralytics = "^8.2.24"
+scikit-learn = "^1.5.0"
+nbconvert = "^7.16.4"
+pynput = "^1.7.7"
+streamlit = "^1.35.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
